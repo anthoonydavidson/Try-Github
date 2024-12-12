@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #AAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Hidden Styles */
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.taskItem.complete p {
+    color: #CCC;
+    text-decoration: line-through;
+}
+
+.delButton {
+    background-color: red;
+    color: white;
+}
